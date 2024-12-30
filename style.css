@@ -1,0 +1,162 @@
+body{
+   background-color: #0d1117;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  
+    line-height: 1.5
+}
+.svg{
+padding-top: 10px;
+    height: 80px;
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.header{
+  width: 288px;
+  height: 36px;
+  text-align: center;
+  font-size: 12px;
+  color: #f0f6fc;
+  
+ 
+    letter-spacing: -0.5px;
+}
+h1{
+    font-weight: 330;
+}
+.main{
+
+    margin-top: 16px;
+    height: 195px;
+    width: 255px;
+    color: white;
+    font-size: 14px;
+    padding: 16px;
+    padding-bottom: 8px;
+    background-color:#151b23;
+    border: 1px solid #3d444db3;
+    border-radius: 6px;
+}
+input{
+width: 228px;
+height:20px;
+
+padding: 5px 12px 5px 12px;
+margin-top: 6px;
+margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    background-color: #0d1117;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #3d444db3;
+    border-radius: 6px;
+    color: white;
+}
+.forgetpass{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forgot{
+    color: #4493f8;
+    text-decoration: none;
+    font-size: 12px;
+}
+button{
+   
+    height: 36px;
+    width: 254px;
+    background-color: #29903b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+button:hover{
+    background-color:#2f9c41 ;
+    cursor: pointer;
+}
+.sign{
+    height: 46px;
+    width: 254px;
+    padding: 16px;
+    margin-top: 16px;
+    background-color:#0d1117 ;
+    color: #4493f8;
+    font-size: 14px;
+    border: 1px solid #3d444db3;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+p{
+    margin-top: 4px;
+    color: white;
+}
+a{
+    color: #4493f8;
+    text-decoration: none;
+}
+.passkey{
+    font-weight: 600;
+}
+a:hover{
+
+    text-decoration: underline;
+}
+
+
+footer{
+   
+    position: absolute;
+    bottom: 0%;
+}
+
+@keyframes ani{
+    from{
+        transform: rotateY(180deg);
+        transform: translate(0px);
+      
+       
+    }
+    to{
+        transform: rotateY(180deg);
+        transform: translate(550px , 90px);
+       
+       
+    }
+}
+.anime{
+    position: absolute;
+    left: 20px;
+    transform: rotateY(180deg);
+    animation: ani 7s ease-in 2 ;
+    animation-direction: alternate;
+}
+.owner{
+    width: 255px;
+    height: 20px;
+    
+    font-size: 14px;
+    padding: 16px;
+    padding-bottom: 8px;
+    background-color:#151b23;
+    border: 1px solid #3d444db3;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p{
+    color: rgba(196, 167, 167, 0.523);
+}
